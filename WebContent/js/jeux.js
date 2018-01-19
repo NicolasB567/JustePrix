@@ -6,7 +6,8 @@
 
              let nb = (Math.floor((100) * Math.random() + 1));
              console.log(nb);
-
+             
+          
 
              $("#Btn_chk").on('click', function () {
                  $(".moins").css("display", "none");
