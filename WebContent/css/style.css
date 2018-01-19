@@ -1,0 +1,155 @@
+body {
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
+}
+
+.logo {
+    width: 200px;
+    max-width: 50%;
+    padding-left: 30px;
+	padding-top: 30px;
+}
+
+.objet {
+    width: 300px;
+    max-width: 80%;
+}
+
+.conteneur {
+    width: 100%;
+}
+
+.bloc {
+    display: none;
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.bloc2 {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.moins1 {
+    display: block;
+    display: none;
+    text-align: right;
+    margin-right: 0px;
+	margin-left: auto;
+}
+
+.plus1 {
+    display: block;
+    display: none;
+}
+
+.moins2 {
+    display: block;
+    display: none;
+    text-align: right;
+    margin-right: 0px;
+	margin-left: auto;
+}
+
+.plus2 {
+    display: block;
+    display: none;
+}
+
+#champ {
+    display: none;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#gagne {
+	max-width: 100%;
+    width: 300px;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+.gagne {
+	max-width: 100%;
+}
+
+#gagne {
+    display: none;
+}
+
+#start {
+	text-align: center;
+	margin-top: 50px;
+}
+
+#Btn_Start{
+	width: 200px;
+	height: 50px;
+	background-color: #aff7fb;
+	color: #c907a0;
+	font-family: Verdana;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+#Btn_chk{
+	width: 100px;
+	height: 25px;
+	background-color: #aff7fb;
+	color: #c907a0;
+	font-family: Verdana;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+.texte {
+	font-family: Verdana;
+	font-size: 1.2em;
+	color: blue;
+	font-weight: bold;
+}
+
+.center {
+	text-align: center;
+}
+/* RESPONSIVE */
+
+@media screen and (max-width: 500px) {
+
+    .bloc {
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .logo {
+        text-align: center;
+        max-width: 30%;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+    .objet {
+        text-align: center;
+        max-width: 50%;
+    }
+
+    .moins {
+        width: 80px;
+    }
+
+    .plus {
+        width: 80px;
+    }
+
+}
